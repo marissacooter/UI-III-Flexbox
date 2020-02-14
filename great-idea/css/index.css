@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,21 +45,123 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Your code starts here! */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* this is the top navigation */
+* {
+	border: 2px solid grey;
+}
+body{
+	background-color: white;
+}
+header{
+	display: flex;
+	background-color: pink;
+	justify-content: space-between;
+	justify-content: center;
+	margin: 15px;
+	padding: 60px;
+}
+header nav{
+	background-color: blue;
+	margin: 20px;
+	padding: 20px;
+}
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+hr{
+	border: 1px solid black;
+}
+header a{
+	background-color: red;
+	color: grey;
+	text-decoration: none;
+	margin: 20px;
+}
+header a:hover{
+	color: black;
+}
+header img{
+	background-color: purple;
+	padding: 50px;
+	
+	
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.CTASection{
+	padding: 4% 3%;
+	margin: 6% 0px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 10%;
+}
+.CTASection img{
+	position: absolute;
+	bottom: -6%;
+	left: 55%;
+}
+.CTA{
+	font-size: 80px;
+	text-align: center;
+	position: relative;
+	right: 23%;
+	margin-top: 60px;
+}
+.CTASection button{
+	width: 13%;
+	padding: 1% 0px;
+	color: grey;
+	background-color: white;
+	position: absolute;
+	left: 45%;
+}
+.CTASection button:hover{
+	color: white;
+	background-color: grey;
+}
+.content{
+	display: inline-block;
+	position: relative;
+}
+.contentCard1, .contentCard2{
+	width: 48%;
+	display: inline-block;
+	margin: 4% 7px;
+}
+.contentCard3, .contentCard4, .contentCard5{
+	width: 32%;
+	display: inline-block;
+	margin: 4% 4px;
+}
+.middle-img {
+	width: 100%;
+}
+footer{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 3% 0;
+	line-height: 2;
+}
+address{
+	margin-top: -16px;
+}
+.copyright{
+	margin-top: 3%;
+	text-align: center;
+}
+.contact{
+	line-height: 2;
+}
